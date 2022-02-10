@@ -121,11 +121,6 @@ LOCAL_SRC_FILES := $(TARGET_ARCH_ABI)/lib/libboost_serialization.a
 include $(PREBUILT_STATIC_LIBRARY)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libboost_signals
-LOCAL_SRC_FILES := $(TARGET_ARCH_ABI)/lib/libboost_signals.a
-include $(PREBUILT_STATIC_LIBRARY)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libboost_stacktrace_basic
 LOCAL_SRC_FILES := $(TARGET_ARCH_ABI)/lib/libboost_stacktrace_basic.a
 include $(PREBUILT_STATIC_LIBRARY)
